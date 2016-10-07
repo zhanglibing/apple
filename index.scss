@@ -668,6 +668,7 @@ $nav-map:("logo":20px,
     .column{
      width:20%;
      float: left;
+      //margin-right: 20px;
       h3{
         height:20px;
         font-size: 12px;
@@ -705,7 +706,7 @@ $nav-map:("logo":20px,
   padding: 20px 0 24px;
   @include onm{
     width:100%;
-    padding: 20px 22px 22px 24px;
+    padding: 20px 20px 20px 24px;
     box-sizing: border-box;
   }
   .footer-shop{
