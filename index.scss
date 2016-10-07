@@ -572,7 +572,6 @@ $nav-map:("logo":20px,
       }
 
     }
-
   }
 .button{
   width:100%;
@@ -618,7 +617,6 @@ $nav-map:("logo":20px,
   }
 }
 }
-
 .iphone_large{
   background: url("images/iphone_large.jpg") no-repeat bottom center;
   background-color: #000;
@@ -670,7 +668,6 @@ $nav-map:("logo":20px,
     .column{
      width:20%;
      float: left;
-      //margin-right: 20px;
       h3{
         height:20px;
         font-size: 12px;
@@ -701,11 +698,16 @@ $nav-map:("logo":20px,
   display: none;
 }
 .footer-bottom{
-  width:100%;
+  width:980px;
   margin:0 auto;
   font-size: 12px;
   color:#999;
   padding: 20px 0 24px;
+  @include onm{
+    width:100%;
+    padding: 20px 22px 22px 24px;
+    box-sizing: border-box;
+  }
   .footer-shop{
     border-bottom: 1px solid #e3e3e3;
     margin-bottom: 6px;
@@ -864,55 +866,5 @@ ul.block{
   }
 }
 
-//.nav{
-//  width:100%;
-//  height:44px;
-//  background: #000;
-//  position:relative;
-//  .nav-box{
-//   position:absolute;
-//    left:0;
-//    right:0;
-//    bottom:0;
-//    top:0;
-//    margin:auto;
-//    width:1000px;
-//    height:44px;
-//    ul li{
-//      float: left;
-//      height:44px;
-//      width:percentage(1/9);
-//      a{
-//        font-size: 16px;
-//        display:block;
-//        text-align: center;
-//        line-height: 44px;
-//        color:#fff;
-//      }
-//    }
-//  }
-//
-//}
-//.nav-box ul li:first-child{
-//  background: url(images/image_large.svg) no-repeat center center;
-//}
-//.box{
-//  width:100%;
-//  height:36px;
-//  background:red;
-//  &::after{
-//    display:inline-block;
-//    height:0;
-//    width:100%;
-//    font-size: 0;
-//    line-height: 0;
-//  }
-//  li{
-//    display: inline-block;
-//    text-align: justify;
-//    line-height: 36px;
-//    font-size: 18px;
-//  }
-//}
 
 

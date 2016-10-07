@@ -1283,11 +1283,19 @@ a.search1 span {
 }
 
 .footer-bottom {
-  width: 100%;
+  width: 980px;
   margin: 0 auto;
   font-size: 12px;
   color: #999;
   padding: 20px 0 24px;
+}
+
+@media screen and (max-width: 1068px) {
+  .footer-bottom {
+    width: 100%;
+    padding: 20px 22px 22px 24px;
+    box-sizing: border-box;
+  }
 }
 
 .footer-bottom .footer-shop {
