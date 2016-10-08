@@ -42,6 +42,30 @@ a {
   background: rgba(0, 0, 0, 0.8);
 }
 
+@media screen and (max-width: 1068px) {
+  .nav {
+    width: 100%;
+  }
+  .nav .nav-box {
+    width: 100%;
+    max-width: 980px;
+    padding: 0 22px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1068px) and (max-width: 736px) {
+  .nav {
+    width: 100%;
+  }
+  .nav .nav-box {
+    width: 500px;
+    max-width: 980px;
+    padding: 0 22px;
+    margin: 0 auto;
+  }
+}
+
 .nav .nav-box {
   max-width: 980px;
   padding: 0 22px;
